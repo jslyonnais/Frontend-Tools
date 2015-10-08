@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax Form</title>
+
+	<style>
+		input, textarea {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+	<form id="form" action="validate.php" method="POST">
+		<input type="text" name="fullName" placeholder="Full Name">
+		<input type="email" name="email" placeholder="Email">
+		<input type="text" name="subject" placeholder="Subject">
+		<textarea name="message" cols="30" rows="10"></textarea>
+		<input type="submit" value="Submit">
+	</form>
+
+
+	<!-- Include javascript -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+	<script src="ajax-form.js"></script>
+</body>
+</html>
