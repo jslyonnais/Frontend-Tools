@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax Form</title>
+
+	<style>
+		div {
+			display: block;
+			width: 100%;
+			min-height: 800px;
+		}
+	</style>
+</head>
+<body>
+
+	<div data-scroll="pink" style="background-color: pink;">
+		<button class="js-scroll" data-scroll-action="red">Go to red</button>
+	</div>
+
+	<div data-scroll="red" style="background-color: red;">
+		<button class="js-scroll" data-scroll-action="blue">Go to red</button>
+	</div>
+
+	<div data-scroll="blue" style="background-color: blue;">
+		<button class="js-scroll" data-scroll-action="pink">Go BACK to pink !</button>
+	</div>
+
+
+	<!-- Include javascript -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="scroll.js"></script>
+</body>
+</html>
